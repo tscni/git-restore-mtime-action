@@ -9,4 +9,4 @@ runs:
   steps:
     - shell: bash
       run: |
-        $GITHUB_ACTION_PATH/git-restore-mtime
+        $GITHUB_ACTION_PATH/git-restore-mtime --commit-time
